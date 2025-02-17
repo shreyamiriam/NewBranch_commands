@@ -34,3 +34,22 @@ Bonus: Push the Branch to a Remote Repository
 To share your branch with others, push it to a remote repository:
 
 git push origin my-new-branch
+
+
+       OR
+
+Step 1: Create and Switch to a New Branch
+git checkout -b my-branch
+
+Step 2: Make Changes and Commit
+git add .
+git commit -m "My changes"
+
+Step 3: Switch Back to Main Branch
+git checkout main
+
+Step 4: Merge the Branch into Main
+git merge my-branch
+
+Step 5: Delete the Branch (Optional)
+git branch -d my-branch
